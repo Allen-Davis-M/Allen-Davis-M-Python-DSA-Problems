@@ -1,0 +1,26 @@
+
+1.8) If s[k] references index -n<k<0 then the equivalent index j>=0 should ideally be j=n+k
+Taking an example if n=7 and k=4, therefore j=-7+4=-3
+both s[4] and s[-3] would reference the same thing in a list of 7 elements
+
+1.9)range(50,90,10)
+
+1.10)range(8,-10,-2)
+
+1.11)List_syntax[2*k for k in range(0,9)]
+
+1.12)from random import randrange
+     def choice(data):
+ 	a=random.randrange(0,len(data))
+	b=data[a]
+	return b
+
+1.16)Even though numbers are immutable, in a list the value corresponding to a certain position in the list can be changed by a certain factor with respect to user input, therefore this change will affect the original list
+
+1.17)We would not be modifying the list in this particular instance, instead we would be creating a copy of a particular list element and modifying that to the particular value that we desired
+
+1.18)List_syntax[Num=Num+(2*k) for k in range(0,10)]
+
+1.19)alphabet = [chr(i) for i in range(ord('a'), ord('z') + 1)]
+
+w
